@@ -1,0 +1,51 @@
+install manjaro xfce full w/ btrfs
+setup timeshift
+update user information
+Applications
+============
+- fzf tree bat diff-so-fancy (yay)						|
+- clone dotbare (git clone https://github.com/kazhala/dotbare.git ~/.dotbare)	| > put in init script
+- dotbare finit -u https://github.com/gvwalker/dotfiles.git			|
+- run setup									|
+	- bmenu (yay)
+	- teams zoom (yay)
+	- vivaldi, vivaldi-ffmpeg-codecs, vivaldi-widevine (yay)
+	- Remove Firefox (yay -R firefox)
+	- bpytop (yay)
+	- neovim (yay)
+	- qemu, ebtables, libvirt, bridge-utils, virt-manager, virt-viewer (yay)
+	- Download virtio drivers (https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
+	- sudo mkdir -p /vms/distros && sudo chown grant:grant /vms/distros
+	- sudo mkdir -p /vms/vm-storage && sudo chown grant:grant /vms/vm-storage
+	- Homebrew (brew.sh)
+	- starship.rs (brew) (add eval "$(starship init zsh)" to .zshrc) <<should already be there in dotfiles>>
+	- alacritty (yay)
+	- youtube-music-appimage (yay)
+	- exa (yay)
+	- install fonts (copy to ~/.local/share/fonts, run fc-cache -f -v)
+	- sudo timedatectl set-ntp true
+
+
+TilingWM
+========
+- awesome-git picom-tryone-git volumeicon unclutter blueman rofi-git lxappearance upower xorg-xbacklight polkit lxsession i3lock-multimonitor nitrogen
+
+Development
+===========
+- awscli (via install script)
+- terraform, tflint, tfsec, terraform-ls (brew)
+- gh (brew)
+- visual-studio-code-bin (yay)
+- kind-bin kubectl helm docker (yay)
+- sudo usermod -aG docker grant
+- sudo systemctl enable docker.service && sudo systemctl start docker.service
+- sudo kind create cluster
+- nerd-fonts-source-code-pro
+
+Setup
+=====
+- Setup 1password
+- Setup Vivaldi sync
+- Enable & start libvirtd.service (sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service)
+- Add user to libvirt group - (sudo usermod -aG libvirt grant)
+- Install WIN10 VM
