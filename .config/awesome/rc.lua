@@ -100,7 +100,7 @@ local scrlocker    = "i3lock-fancy-dualmonitor"
 
 awful.util.terminal = terminal
 -- 1:www, 2:sys, 3:dev, 4:com, 5:mus
-awful.util.tagnames = { "1:🌍", "2:💻", "3:🔧", "4:📨", "5:🎧" }
+awful.util.tagnames = { "1: ", "2: ", "3: ", "4: ", "5: " }
 awful.layout.layouts = {
     awful.layout.suit.tile,
     awful.layout.suit.floating,
