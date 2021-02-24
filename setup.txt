@@ -8,7 +8,7 @@ Applications
 - dotbare finit -u https://github.com/gvwalker/dotfiles.git			|
 - run setup									|
 	- bmenu (yay)
-	- teams zoom (yay)
+	- teams zoom telegram-desktop (yay)
 	- vivaldi, vivaldi-ffmpeg-codecs, vivaldi-widevine (yay)
 	- Remove Firefox (yay -R firefox)
 	- bpytop (yay)
