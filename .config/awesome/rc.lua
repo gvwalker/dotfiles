@@ -57,7 +57,7 @@ local function run_once(cmd_arr)
     end
 end
 
-run_once({ "lxsession", "unclutter -root", "blueman-tray", "nm-applet", "mpd", "picom --config ~/.config/picom/picom.conf -b --experimental-backends", "volumeicon", "nitrogen --restore" }) -- entries must be separated by commas
+run_once({ "lxsession", "unclutter -root", "blueman-tray", "nm-applet", "~/.screenlayout/screen-left.sh", "picom --config ~/.config/picom/picom.conf -b --experimental-backends", "volumeicon", "nitrogen --restore" }) -- entries must be separated by commas
 
 -- This function implements the XDG autostart specification
 --[[
