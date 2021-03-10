@@ -96,7 +96,7 @@ local editor       = os.getenv("EDITOR") or "vim"
 local gui_editor   = os.getenv("GUI_EDITOR") or "code"
 local browser      = os.getenv("BROWSER") or "vivaldi-stable"
 local file_browser = "thunar"
-local scrlocker    = "i3lock-fancy-dualmonitor"
+local scrlocker    = "i3lock-multimonitor"
 
 awful.util.terminal = terminal
 -- 1:www, 2:sys, 3:dev, 4:com, 5:mus
