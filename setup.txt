@@ -17,10 +17,11 @@ Applications
 	- Download virtio drivers (https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso)
 	- sudo mkdir -p /vms/distros && sudo chown grant:grant /vms/distros
 	- sudo mkdir -p /vms/vm-storage && sudo chown grant:grant /vms/vm-storage
+	- sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service
+	- sudo usermod -aG libvirt grant
 	- Homebrew (brew.sh)
 	- brew tap homebrew/bundle
 	- brew bundle
-	- starship.rs (brew) (add eval "$(starship init zsh)" to .zshrc) <<should already be there in dotfiles>>
 	- alacritty (yay)
 	- youtube-music-appimage (yay)
 	- exa (yay)
@@ -42,12 +43,10 @@ Development
 - sudo usermod -aG docker grant
 - sudo systemctl enable docker.service && sudo systemctl start docker.service
 - sudo kind create cluster
-- nerd-fonts-source-code-pro
+- nerd-fonts-source-code-pro (yay)
 
 Setup
 =====
 - Setup 1password
 - Setup Vivaldi sync
-- Enable & start libvirtd.service (sudo systemctl enable libvirtd.service && sudo systemctl start libvirtd.service)
-- Add user to libvirt group - (sudo usermod -aG libvirt grant)
 - Install WIN10 VM
