@@ -3,10 +3,10 @@ setup timeshift
 update user information
 Applications
 ============
-- fzf tree bat diff-so-fancy (yay)						|
-- clone dotbare (git clone https://github.com/kazhala/dotbare.git ~/.dotbare)	| > put in init script
-- dotbare finit -u https://github.com/gvwalker/dotfiles.git			|
-- run setup									|
+- fzf tree bat diff-so-fancy (yay)                                              |
+- clone dotbare (git clone https://github.com/kazhala/dotbare.git ~/.dotbare)   | > put in init script
+- dotbare finit -u https://github.com/gvwalker/dotfiles.git                     |
+- run setup                                                                     |
 	- bmenu (yay)
 	- teams zoom telegram-desktop (yay)
 	- vivaldi, vivaldi-ffmpeg-codecs, vivaldi-widevine (yay)
