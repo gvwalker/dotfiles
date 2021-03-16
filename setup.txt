@@ -18,6 +18,8 @@ Applications
 	- sudo mkdir -p /vms/distros && sudo chown grant:grant /vms/distros
 	- sudo mkdir -p /vms/vm-storage && sudo chown grant:grant /vms/vm-storage
 	- Homebrew (brew.sh)
+	- brew tap homebrew/bundle
+	- brew bundle
 	- starship.rs (brew) (add eval "$(starship init zsh)" to .zshrc) <<should already be there in dotfiles>>
 	- alacritty (yay)
 	- youtube-music-appimage (yay)
