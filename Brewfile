@@ -1,0 +1,7 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "binutils"
+brew "gcc"
+brew "gh"
+brew "git"
+brew "starship"
