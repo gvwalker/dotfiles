@@ -5,7 +5,6 @@ USE_POWERLINE="true"
 if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
   source /usr/share/zsh/manjaro-zsh-config
 fi
-eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 eval "$(starship init zsh)"
 
 alias ls='exa'
