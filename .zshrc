@@ -10,3 +10,4 @@ eval "$(starship init zsh)"
 alias ls='exa'
 alias ll='ls -la'
 alias vim='nvim'
+export EDITOR='/usr/bin/nvim'
