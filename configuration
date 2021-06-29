@@ -1,0 +1,44 @@
+# Packages
+gnome-keyring
+blueberry
+bleachbit
+cronie
+dunst
+eww-git (AUR) - requires rustup & nightly (rustup toolchain install nightly)
+exa
+fd
+feh
+flashfocus-git (AUR) - requires python-pip
+fzf
+geary
+i3lock-color (AUR)
+lead-git (AUR) (hotcorners)
+light
+lxappearance-gtk3
+mate-polkit
+nautilus
+neofetch-git (AUR)
+nerd-fonts-fira-code (AUR)
+noto-fonts-emoji
+numlockx
+nvidia-settings
+otf-font-awesome
+pantheon-calendar
+pavucontrol
+picom-jonaburg-git (AUR)
+pidswallow (AUR)
+playerctl
+plymouth-git (AUR)
+plymouth-theme-dna-git (AUR)
+ptask (AUR)
+pulsemixer
+python-pylint
+python-pynvim
+python-spotipy (AUR)
+python-tasklib
+redshift
+ripgrep
+rofi-file-browser-extended-git (AUR)
+rofi-greenclip (AUR)
+rofi-search-git (AUR)
+splatmoji-git (AUR)
