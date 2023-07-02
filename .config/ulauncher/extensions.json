@@ -1,0 +1,23 @@
+{
+    "com.github.tchar.ulauncher-albert-calculate-anything": {
+        "id": "com.github.tchar.ulauncher-albert-calculate-anything",
+        "url": "https://github.com/tchar/ulauncher-albert-calculate-anything",
+        "updated_at": "2023-07-01T10:02:32.203904",
+        "last_commit": "ee0903174c8b87cd1f7c3b6c1acef10702547507",
+        "last_commit_time": "2021-08-12T06:39:56"
+    },
+    "com.github.ahaasler.ulauncher-tmux": {
+        "id": "com.github.ahaasler.ulauncher-tmux",
+        "url": "https://github.com/ahaasler/ulauncher-tmux",
+        "updated_at": "2023-07-01T10:03:46.121353",
+        "last_commit": "dd631a2e5a1d8bf2ab21095b43afe068443f02b9",
+        "last_commit_time": "2021-06-05T16:42:59"
+    },
+    "com.github.qcasey.ulauncher-homeassistant": {
+        "id": "com.github.qcasey.ulauncher-homeassistant",
+        "url": "https://github.com/qcasey/ulauncher-homeassistant",
+        "updated_at": "2023-07-01T10:04:35.209893",
+        "last_commit": "8a187aa6bdff8700cdbfbc0371b98dda33b253d5",
+        "last_commit_time": "2021-05-24T23:54:58"
+    }
+}
