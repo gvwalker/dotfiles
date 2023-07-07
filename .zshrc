@@ -24,6 +24,6 @@ export FZF_DEFAULT_OPTS=" \
 source ~/software/zsh-syntax-highlighting-theme/themes/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-PATH="/home/grant/.local/bin:/home/grant/.config/emacs/bin:/home/grant/software/quickemu/:$PATH"
+PATH="/home/grant/.local/bin:/home/grant/.config/emacs/bin:/home/grant/software/quickemu:/home/grant/bin:$PATH"
 
 eval "$(starship init zsh)"
