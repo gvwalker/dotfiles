@@ -1,0 +1,36 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+if type brew &>/dev/null; then
+    FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+    autoload -Uz compinit
+    compinit
+fi
+
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/grant/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
+
+eval "$(op completion zsh)"; compdef _op op
+
+export PATH="/Users/grant/.local/bin:/usr/local/bin:$PATH"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+
+eval "$(mise activate zsh)"
+
+eval "$(starship init zsh)"
+
+eval "$(zoxide init --cmd cd zsh)"
+
+alias ls='eza --color=auto --group-directories-first'
+alias ll='ls -la'
+alias la='ls -A'
+
+alias cat='bat'
+
+export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
+
+source /Users/grant/.config/op/plugins.sh
