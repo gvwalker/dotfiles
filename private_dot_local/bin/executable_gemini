@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+GITHUB_MCP_PAT=$(op read "op://Personal/GitHub Personal Access Token/token") /opt/homebrew/bin/gemini "$@"
