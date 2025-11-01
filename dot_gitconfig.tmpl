@@ -4,5 +4,5 @@
 	required = true
 	clean = git-lfs clean -- %f
 [user]
-	name = Grant Walker
-	email = grant.v.walker@gmail.com
+	name = {{ .name | quote }}
+	email = {{ .email | quote }}
