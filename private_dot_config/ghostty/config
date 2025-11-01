@@ -1,0 +1,15 @@
+theme = Catppuccin Mocha
+font-family = Monaspace Neon
+font-size = 16
+mouse-hide-while-typing = true
+macos-option-as-alt = true
+background-opacity = 0.8
+background-blur-radius = 20
+macos-titlebar-proxy-icon = hidden
+title = " "
+window-padding-y = 10
+window-padding-x = 10
+window-padding-balance = false
+window-height = 50
+window-width = 120
+window-save-state = always

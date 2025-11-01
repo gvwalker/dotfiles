@@ -31,6 +31,8 @@ alias la='ls -A'
 
 alias cat='bat'
 
+alias assume=". assume"
+
 export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
 
 source /Users/grant/.config/op/plugins.sh
