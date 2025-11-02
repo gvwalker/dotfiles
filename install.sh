@@ -5,4 +5,6 @@
 command -v brew || export PATH="/opt/homebrew/bin:/home/linuxbrew/.linuxbrew/bin:/usr/local/bin:$PATH"
 command -v brew && eval "$(brew shellenv)"
 
+brew install eza
+
 sh -c "$(curl -fsLS get.chezmoi.io/lb)" -- init --apply gvwalker
