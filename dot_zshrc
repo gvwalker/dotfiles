@@ -36,3 +36,11 @@ alias assume=". assume"
 export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
 
 source /Users/grant/.config/op/plugins.sh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/grant/.lmstudio/bin"
+# End of LM Studio CLI section
+
+
+# Added by get-aspire-cli.sh
+export PATH="$HOME/.aspire/bin:$PATH"

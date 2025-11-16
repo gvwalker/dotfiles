@@ -13,3 +13,4 @@ window-padding-balance = false
 window-height = 50
 window-width = 120
 window-save-state = always
+shell-integration-features = sudo,ssh-terminfo,ssh-env
